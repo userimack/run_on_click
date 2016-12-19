@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+ <form method="post" action="/">
+     {% csrf_token %}
+	<center><button type='submit' class='btn btn-lg'>Button</button></center>
+</form>
+<a href="{% url 'click'  %}">Click Me</a>
+</body>
+</html>
